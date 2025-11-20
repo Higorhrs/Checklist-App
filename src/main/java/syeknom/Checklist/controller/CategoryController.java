@@ -46,6 +46,7 @@ public class CategoryController {
         CategoryResponseDTO responseDTO = new CategoryResponseDTO(savedCategory);
 
         return new ResponseEntity<>(responseDTO, HttpStatus.CREATED);
+        
     }
 
     // -------------------------------------------------------------------------
@@ -99,5 +100,6 @@ public class CategoryController {
 
         categoryService.deleteById(id);
         return ResponseEntity.noContent().build();
+        
     }
 }

@@ -2,7 +2,7 @@ package syeknom.Checklist.service;
 
 
 import syeknom.Checklist.model.Category;
-import syeknom.Checklist.repository.CategoryRepository; // ✅ Requer o CategoryRepository
+import syeknom.Checklist.repository.CategoryRepository; 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
